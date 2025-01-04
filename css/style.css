@@ -731,15 +731,17 @@
     margin: -32px auto 0;
     max-width: 346px;
     height: 266px;
-    position: absolute;
-    z-index: 0;
+  }
+
+  .section-shop-text-wrap {
+    margin: auto;
   }
 
   .section-shop-title {
     color: #0f0d0e;
     font-family: OpenSans, sans-serif;
     text-transform: uppercase;
-    font-size: 2.0rem;
+    font-size: 17px;
     line-height: 24px;
     display: block;
   }
@@ -890,6 +892,7 @@
       padding: 0;
       flex-direction: column-reverse;
       max-width: 330px;
+      margin: auto;
     }
 
     .logo {
@@ -934,6 +937,7 @@
     .title {
       line-height: 36px;
       padding-top: 35px;
+      max-width: 330px;
     }
 
     .section-popup-button {
@@ -1153,6 +1157,7 @@
       padding: 0;
       flex-direction: column-reverse;
       max-width: 330px;
+      margin: auto;
     }
 
     .logo {
@@ -1197,6 +1202,7 @@
     .title {
       line-height: 36px;
       padding-top: 35px;
+      max-width: 330px;
     }
 
     .section-popup-button {
@@ -1331,15 +1337,15 @@
     }
 
     .search-field {
-      max-width: 283px;
+      width: 283px;
     }
 
     .email {
-      max-width: 330px;
+      width: 330px;
     }
 
     .email-button {
-      max-width: 330px;
+      width: 330px;
       margin-bottom: 33px;
     }
 
@@ -1410,7 +1416,7 @@
     }
 
     .menu {
-      padding: 0;
+      padding: 0 4%;
     }
 
     .logo {
@@ -1573,7 +1579,7 @@
     }
 
     .menu {
-      padding: 0;
+      padding: 0 4%;
     }
 
     .logo {
@@ -1631,13 +1637,21 @@
       margin-top: 12px;
     }
 
+    .section-wrap {
+      grid-template-columns: 25vw 25vw 25vw 25vw;
+    }
+
     .section-title.trend-title {
       font-size: 18px;
       margin-bottom: 19px;
     }
 
     .section-text-wrap {
-      padding: 30px;
+      padding: 3%;
+    }
+
+    .section-text {
+      font-size: 1.5vw;
     }
 
     .content {
@@ -1646,7 +1660,11 @@
 
     .content_picture {
       max-width: 391px;
-      height: 304px;
+      max-height: 304px;
+    }
+
+    .content-link-items {
+      flex-wrap: wrap;
     }
 
     .content-wrap-time-author {
@@ -1655,7 +1673,8 @@
 
     .page {
       max-width: 768px;
-      padding: 0 35px;
+      padding: 0 5%;
+      gap: 4%;
     }
 
     .content {
@@ -1721,5 +1740,9 @@
 
     .drop-down-menu {
       display: none;
+    }
+
+    .section-shop-title {
+      font-size: 20px;
     }
   } 
