@@ -333,7 +333,7 @@
 
   .section-title.trend-title {
     font-size: 2.0rem;
-    margin-bottom: 28px;
+    margin-bottom: 27px;
   }
 
   .article-wrap {
@@ -345,9 +345,9 @@
     display: flex;
     align-content: flex-end;
     flex-wrap: wrap;
-    padding-bottom: 17px;
-    padding-left: 21px;
-    padding-right: 21px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 22px;
     height: 318px;
     box-sizing: border-box;
   }
@@ -383,7 +383,7 @@
   .section-text-wrap {
     border: 3px solid #b59f5b;
     width: 100%;
-    padding: 32px;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -392,7 +392,7 @@
     font-family: OpenSans, sans-serif;
     color: #ffffff;
     font-size: 2.0rem;
-    margin-top: 7px;
+    margin-top: 4px;
     font-weight: 700;
     text-transform: uppercase;
 
@@ -413,7 +413,7 @@
   .content {
     min-width: 367px;
     display: flex;
-    margin-bottom: 61px;
+    margin-bottom: 57px;
   }
   
   .content_picture {
@@ -707,7 +707,7 @@
 
   .section-shop {
     max-width: 1200px;
-    margin: auto;
+    margin: 4px auto 0;
     padding: 0 15px;
   }
 
@@ -726,7 +726,7 @@
   }
 
   .section-shop-text-wrappen {
-    padding: 49px 22px 20px 16px;
+    padding: 49px 20px 20px 17px;
     border: 3px solid #b59f5b;
     margin: -32px auto 0;
     max-width: 346px;
@@ -768,7 +768,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: 23px;
+    margin-top: 20px;
     height: 48px;
   }
 
@@ -805,7 +805,7 @@
   /*------------------------------------------------------------------------------Конец Shop------------------------------------------------------------*/
   /*-----------------------------------------------------------------------------Нижняя часть-----------------------------------------------------------*/
   .footer{
-    margin-top: 298px;
+    margin-top: 67px;
     margin-bottom: 41px;
   }
   
@@ -1096,7 +1096,11 @@
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr;
       max-width: 330px;
-      gap: 191px;
+      gap: 0;
+    }
+
+    .section-shop-img-text-wrap:nth-child(1n+2) {
+      margin-top: -9px;
     }
 
     .section-title.trend-title.shop-title{
@@ -1126,7 +1130,7 @@
     }
 
     .footer {
-      margin-top: 258px;
+      margin-top: 43px;
       margin-bottom: 40px;
     }
 
@@ -1358,7 +1362,11 @@
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr;
       max-width: 330px;
-      gap: 191px;
+      gap: 0;
+    }
+
+    .section-shop-img-text-wrap:nth-child(1n+2) {
+      margin-top: -9px;
     }
 
     .section-title.trend-title.shop-title{
@@ -1388,7 +1396,7 @@
     }
 
     .footer {
-      margin-top: 258px;
+      margin-top: 43px;
       margin-bottom: 40px;
     }
 
@@ -1523,6 +1531,7 @@
 
     .section-shop {
       max-width: 768px;
+      margin: 0 auto;
     }
 
     .section-shop-wrap {
@@ -1533,12 +1542,12 @@
     }
 
     .section-shop-text-wrappen {
-      padding: 51px 30px 0px 19px;
+      padding: 49px 22px 0px 17px;
       height: 264px;
     }
 
     .section-shop-text-wrappen-end {
-      padding: 54px 22px 0px 19px;
+      padding: 49px 22px 0px 17px;
       max-width: 338px;
       height: 245px;
       margin: -37px auto 0;
@@ -1558,8 +1567,13 @@
     .footer {
       margin-top: 66px;
     }
+
     .footer-wrapper{
       max-width: 768px;
+    }
+
+    .footer-address {
+      margin-bottom: 47px;
     }
   }
 
@@ -1689,6 +1703,7 @@
 
     .section-shop {
       max-width: 768px;
+      margin: 0 auto;
     }
 
     .section-shop-wrap {
@@ -1699,12 +1714,12 @@
     }
 
     .section-shop-text-wrappen {
-      padding: 51px 30px 0px 19px;
+      padding: 49px 22px 0px 17px;
       height: 264px;
     }
 
     .section-shop-text-wrappen-end {
-      padding: 54px 22px 0px 19px;
+      padding: 49px 22px 0px 17px;
       max-width: 338px;
       height: 245px;
       margin: -37px auto 0;
@@ -1724,8 +1739,13 @@
     .footer {
       margin-top: 66px;
     }
+
     .footer-wrapper{
       max-width: 768px;
+    }
+
+    .footer-address {
+      margin-bottom: 47px;
     }
   }
 
@@ -1744,5 +1764,9 @@
 
     .section-shop-title {
       font-size: 20px;
+    }
+
+    .section-shop-text {
+      margin-top: 4px;
     }
   } 
