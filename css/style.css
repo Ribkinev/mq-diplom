@@ -132,20 +132,13 @@
     top: 10%;
     right: 10%;
     z-index: 3;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 14px;
   }
 
   .section-popup-button:hover {
     background-color: #000000; 
-  }
-
-  .section-popup1 {
-    text-decoration: none;
-    background-color: #b59f5b;
-    font-family: OpenSans, sans-serif;
-    font-weight: bold; 
-    text-transform: uppercase;
-    color: #ffffff;
-    font-size: 14px;
   }
 
   .content-popup-wrap {
@@ -944,7 +937,7 @@
 
     .section-popup-button {
       width: 100px;
-      height: 40px;
+      height: 47px;
     }
 
     .content-popup {
@@ -1205,7 +1198,7 @@
 
     .section-popup-button {
       width: 100px;
-      height: 40px;
+      height: 47px;
     }
 
     .content-popup {
