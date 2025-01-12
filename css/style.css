@@ -418,8 +418,8 @@
   
   .content_picture {
     padding-top: 4px;
-    max-width: 381px;
-    height: 294px;
+    min-width: 381px;
+    min-height: 294px;
     display: flex;
   }
   
@@ -431,6 +431,7 @@
   .content-link-items {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
   }
   
   .content-link-list {
@@ -535,7 +536,7 @@
   .section-article-img {
     margin-right: 19px;
     height: 70.09px;
-    width: 70.09px;
+    min-width: 70.09px;
     margin-top: 4px;
     display: flex;
   }
@@ -707,7 +708,7 @@
 
   .section-shop {
     max-width: 1200px;
-    margin: 4px auto 0;
+    margin: 0 auto;
     padding: 0 15px;
   }
 
@@ -723,6 +724,7 @@
     margin: auto;
     position: relative;
     z-index: -1;
+    min-height: 204px;
   }
 
   .section-shop-text-wrappen {
@@ -730,7 +732,7 @@
     border: 3px solid #b59f5b;
     margin: -32px auto 0;
     max-width: 346px;
-    height: 266px;
+    min-height: 266px;
   }
 
   .section-shop-text-wrap {
@@ -1041,8 +1043,9 @@
 
     .content_picture {
       max-width: 330px;
-      height: 255px;
-      margin-bottom: 9px;
+      min-width: 330px;
+      min-height: 258px;
+      margin-bottom: 5px;
     }
 
     .content-wrap-time-author {
@@ -1094,13 +1097,8 @@
 
     .section-shop-wrap {
       grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
       max-width: 330px;
-      gap: 0;
-    }
-
-    .section-shop-img-text-wrap:nth-child(1n+2) {
-      margin-top: -9px;
+      gap: 25px;
     }
 
     .section-title.trend-title.shop-title{
@@ -1115,7 +1113,7 @@
     .section-shop-text-wrappen {
       padding: 49px 23px 25px 16px;
       max-width: 330px;
-      height: auto;
+      min-height: 223px;
     }
 
     .section-shop-buy {
@@ -1124,10 +1122,6 @@
     .section-shop-title {
       font-size: 17px;
     } 
-
-    .section-shop-img.section-shop-img-end {
-      margin-top: 27px;
-    }
 
     .footer {
       margin-top: 43px;
@@ -1307,8 +1301,9 @@
 
     .content_picture {
       max-width: 330px;
-      height: 255px;
-      margin-bottom: 9px;
+      min-width: 330px;
+      min-height: 258px;
+      margin-bottom: 5px;
     }
 
     .content-wrap-time-author {
@@ -1358,16 +1353,16 @@
       margin-bottom: 48px;
     }
 
-    .section-shop-wrap {
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      max-width: 330px;
-      gap: 0;
+    .section-shop-img-text-wrap {
+      height: auto;
     }
 
-    .section-shop-img-text-wrap:nth-child(1n+2) {
-      margin-top: -9px;
+    .section-shop-wrap {
+      grid-template-columns: 1fr;
+      max-width: 330px;
+      gap: 25px;
     }
+
 
     .section-title.trend-title.shop-title{
       margin-bottom: 28px;
@@ -1381,7 +1376,7 @@
     .section-shop-text-wrappen {
       padding: 49px 23px 25px 16px;
       max-width: 330px;
-      height: auto;
+      min-height: 223px;
     }
 
     .section-shop-buy {
@@ -1390,10 +1385,6 @@
     .section-shop-title {
       font-size: 17px;
     } 
-
-    .section-shop-img.section-shop-img-end {
-      margin-top: 27px;
-    }
 
     .footer {
       margin-top: 43px;
@@ -1517,6 +1508,7 @@
     .page {
       max-width: 768px;
       padding: 0 35px;
+      gap: 1%
     }
 
     .content {
@@ -1536,20 +1528,21 @@
 
     .section-shop-wrap {
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 458px 458px;
+      grid-template-rows: 1fr 1fr;
       padding: 0 20px;
-      gap: 3%;
+      column-gap: 3%;
+      row-gap: 13px;
     }
 
     .section-shop-text-wrappen {
-      padding: 49px 22px 0px 17px;
-      height: 264px;
+      padding: 49px 22px 17px 17px;
+      min-height: 266px;
     }
 
     .section-shop-text-wrappen-end {
-      padding: 49px 22px 0px 17px;
+      padding: 53px 22px 17px 17px;
       max-width: 338px;
-      height: 245px;
+      min-height: 266px;
       margin: -37px auto 0;
     }
 
@@ -1565,7 +1558,7 @@
     }
 
     .footer {
-      margin-top: 66px;
+      margin-top: 26px;
     }
 
     .footer-wrapper{
@@ -1708,20 +1701,21 @@
 
     .section-shop-wrap {
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 458px 458px;
+      grid-template-rows: 1fr 1fr;
       padding: 0 20px;
-      gap: 3%;
+      column-gap: 3%;
+      row-gap: 13px;
     }
 
     .section-shop-text-wrappen {
-      padding: 49px 22px 0px 17px;
-      height: 264px;
+      padding: 49px 22px 17px 17px;
+      min-height: 266px;
     }
 
     .section-shop-text-wrappen-end {
-      padding: 49px 22px 0px 17px;
+      padding: 49px 22px 17px 17px;
       max-width: 338px;
-      height: 245px;
+      min-height: 266px;
       margin: -37px auto 0;
     }
 
@@ -1737,7 +1731,7 @@
     }
 
     .footer {
-      margin-top: 66px;
+      margin-top: 26px;
     }
 
     .footer-wrapper{
