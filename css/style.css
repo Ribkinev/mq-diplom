@@ -388,7 +388,11 @@
     margin-top: 4px;
     font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
+  }
 
+  .section-text:hover {
+    color: #b59f5b; 
   }
 
   .page {
@@ -413,6 +417,7 @@
     padding-top: 4px;
     min-width: 381px;
     min-height: 294px;
+    max-height: 294px;
     display: flex;
   }
   
